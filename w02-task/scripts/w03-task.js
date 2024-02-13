@@ -31,7 +31,7 @@ function addNumbers() {
   // Assign the sum to an HTML form element with ID "sum"
   document.getElementById("sum").value = sum;
 
-  // Display the result (you can modify this part based on your requirements)
+  // Display the result 
   alert(`The sum of ${number1} and ${number2} is: ${sum}`);
   console.log(sum);
 
@@ -43,13 +43,13 @@ document.getElementById("addNumbers").addEventListener("click", addNumbers);
 /* Function Expression - Subtract Numbers */
 
 function subtract1(number1, number2) {
-  // Function logic: simply adding the two numbers
+  // Function logic: simply subtracting the two numbers
   return number1 - number2;
 }
 
-// Function declaration for the addNumbers function
+// Function declaration for the subtractNumbers function
 function subtractNumbers() {
-// Get the values of the HTML form controls with IDs "add1" and "add2"
+// Get the values of the HTML form controls with IDs "subtract1" and "subtract2"
 const input1 = document.getElementById("subtract1");
 const input2 = document.getElementById("subtract2");
 
@@ -63,19 +63,19 @@ if (isNaN(number1) || isNaN(number2)) {
   return; // Exit the function if values are not valid
 }
 
-// Calculate the sum of the two numbers
+// Calculate the subtract of the two numbers
 const df = number1 - number2;
 
-// Assign the sum to an HTML form element with ID "sum"
+// Assign the subtract to an HTML form element with ID "difference"
 document.getElementById("difference").value = df;
 
-// Display the result (you can modify this part based on your requirements)
+// Display the result 
 alert(`The difference of ${number1} and ${number2} is: ${df}`);
 console.log(df);
 
 }
 
-// Adding a "click" event listener to the button with ID "addNumbers"
+// Adding a "click" event listener to the button with ID "subtractNumbers"
 document.getElementById("subtractNumbers").addEventListener("click", subtractNumbers);
 
 /* Arrow Function - Multiply Numbers */
@@ -105,7 +105,7 @@ const multiplyNumbers = () => {
   // Assign the product to an HTML form element with ID "product"
   document.getElementById("product").value = product;
 
-  // Display the result (you can modify this part based on your requirements)
+  // Display the result 
 alert(`The product of ${factor1} and ${factor2} is: ${product}`);
 console.log(product);
 
