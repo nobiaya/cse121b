@@ -1,0 +1,23 @@
+[
+    {
+        "state": "Imo State",
+        "location": "doulgas road",
+        "imageUrl": "https://github.com/nobiaya/cse121b/blob/main/w02-task/images/doulgas%20road.jfif"
+    },
+    {
+        "state": "Imo State",
+        "location": "okigwe road",
+        "imageUrl": "https://github.com/nobiaya/cse121b/blob/main/w02-task/images/okigwe%20road.jfif"
+    },
+    {
+        "state": "Imo State",
+        "location": "royce road",
+        "imageUrl": "https://github.com/nobiaya/cse121b/blob/main/w02-task/images/royce%20road.jfif"
+    },
+    {
+        "state": "Imo State",
+        "location": "wedal road",
+        "imageUrl": "https://github.com/nobiaya/cse121b/blob/main/w02-task/images/wedal%20road.jfif"
+    }
+    
+]
