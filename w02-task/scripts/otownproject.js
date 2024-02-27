@@ -1,5 +1,5 @@
 // URL of the JSON file on GitHub
-const jsonUrl = 'https://github.com/nobiaya/cse121b/blob/main/w02-task/scripts/otown.json';
+const jsonUrl = 'https://github.com/nobiaya/cse121b/blob/main/w02-task/scripts/otown.json';;
 
 // Fetch the JSON data
 fetch('https://github.com/nobiaya/cse121b/blob/main/w02-task/scripts/otown.json')
